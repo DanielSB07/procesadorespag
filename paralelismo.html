@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Paralelismo y Concurrencia</title>
+  <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+  <header><h1>Paralelismo y Concurrencia</h1></header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="arquitectura.html">Arquitectura</a>
+    <a href="tipos.html">Tipos</a>
+    <a href="rendimiento.html">Rendimiento</a>
+    <a href="paralelismo.html">Paralelismo y Concurrencia</a>
+    <a href="modernos.html">Modernos</a>
+</nav>
+  <main>
+    <h1>Arquitectura Básica del Procesador</h1>
+    <h2>Paralelismo:</h2>
+        <p>El paralelismo es una técnica en la que múltiples tareas o procesos se ejecutan al mismo tiempo, aprovechando varios núcleos o procesadores en un sistema. 
+          En los procesadores modernos, los núcleos múltiples permiten que diferentes hilos de ejecución se procesen simultáneamente, acelerando el rendimiento de tareas complejas. 
+          Esto es especialmente útil en aplicaciones que requieren grandes cantidades de cálculo, como simulaciones científicas, renderizado de gráficos y procesamiento de datos en grandes volúmenes. 
+          Los sistemas paralelos pueden dividir una tarea en partes más pequeñas que se procesan en paralelo, lo que reduce significativamente el tiempo de ejecución de los programas.</p>
+            <img src="img/paralelismo.jpg" alt="Paralelismo" class="img">
+
+    <h2>Concurrencia:</h2>
+          <p>La concurrencia, en cambio, se refiere a la capacidad de un sistema para gestionar múltiples tareas o procesos de manera que parezcan ejecutarse al mismo tiempo, pero no necesariamente se ejecutan simultáneamente. 
+              En un sistema concurrente, los procesos se intercalan en el tiempo, y el sistema se encarga de cambiar entre ellos de manera eficiente. 
+              Aunque en algunos casos puede haber paralelismo, la concurrencia no requiere que los procesos se ejecuten en paralelo. 
+              Es común en entornos donde múltiples tareas deben ser gestionadas, como servidores web o sistemas operativos que manejan varios procesos o hilos al mismo tiempo, asegurando que todos obtengan su tiempo de CPU según sea necesario.</p>
+                <img src="img/concurrencia.jpg" alt="Concurrencia" class="img">
+  </main>
+</body>
+</html>
